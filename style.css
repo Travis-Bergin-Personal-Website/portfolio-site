@@ -7,7 +7,10 @@
     box-shadow: 0 2.5px 4px;
     font-size: 2em;
 }
-.Links {color: black;}
+:hover .Links {color: black;
+        text-decoration: none;}
+
+
 
 h1 {text-align: center; color: white}
 
@@ -22,11 +25,35 @@ p {font-size: 2em; float: right}
     text-align: center;
     margin-bottom: 25}
 
-.hobbies {text-align: left;
- color: black;}
+.hobbies {text-align:center;
+        font-size: xx-large;
+        color: black;
+        font-style: italic;}
 
- .snowboard {height: 200px;
-width: 200px;
-float: right;
-position: absolute;
-margin: 15px;}
+ .hob1 {font-size: x-large;
+        color: magenta;}
+
+ .snowboard {height: 300px;
+    width: 300px;
+    display: flex;
+    border-radius:50%}
+
+.A1 {display: flex;
+    justify-content:space-around;
+    background-color: silver;
+    padding: 1em;
+    border-radius: 25px;
+    font: 1.5em sans-serif;
+    flex-wrap: wrap;}
+
+.A2 {font-size: 1.5em;}
+
+.M1 {height: 200px;
+    width: 200px;}
+
+.Portfolio {font-size: smaller;}
+
+.F1 {height: 200px;}
+
+.Port-img {display: flex;
+           align-content: ;}
