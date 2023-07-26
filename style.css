@@ -7,7 +7,9 @@
     box-shadow: 0 2.5px 4px;
     font-size: 2em;
 }
-:hover .Links {color: black;
+.Links {color: black;}
+
+:hover .Links {color: blue;
         text-decoration: none;}
 
 
@@ -35,7 +37,7 @@ p {font-size: 2em; float: right}
 
  .snowboard {height: 300px;
     width: 300px;
-    display: flex;
+    float: right;
     border-radius:50%}
 
 .A1 {display: flex;
@@ -55,5 +57,6 @@ p {font-size: 2em; float: right}
 
 .F1 {height: 200px;}
 
-.Port-img {display: flex;
-           align-content: ;}
+.Port-img {display: block;
+            margin-left: auto;
+            margin-right: auto;}
