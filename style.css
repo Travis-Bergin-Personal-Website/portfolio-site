@@ -65,3 +65,9 @@ p {font-size: 2em; float: right}
 
 .P1 {color: black;
     font-style: italic;}
+
+@media screen and (max-width:600px) { 
+    .header1 {background-color: aqua;}
+    
+    
+}
