@@ -6,6 +6,7 @@
     padding: 1em;
     box-shadow: 0 2.5px 4px;
     font-size: 2em;
+    margin-bottom: 25;
 }
 .Links {color: black;}
 
@@ -25,7 +26,8 @@ p {font-size: 2em; float: right}
     box-shadow: 10px 10px gray; 
     border-radius: 25px;
     text-align: center;
-    margin-bottom: 25}
+    margin-bottom: 25;
+    margin-top: 25;}
 
 .hobbies {text-align:center;
         font-size: xx-large;
@@ -60,3 +62,6 @@ p {font-size: 2em; float: right}
 .Port-img {display: block;
             margin-left: auto;
             margin-right: auto;}
+
+.P1 {color: black;
+    font-style: italic;}
